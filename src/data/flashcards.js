@@ -1,7 +1,7 @@
 const flashcards = [
   {
     id: 1,
-    front: "カラス",
+    word: "カラス",
     meaning: "crow; raven",
     kana: "カラス",
     example: "千夏ちゃんと真琴さんへカラスの儀式を教えた。",
@@ -11,7 +11,7 @@ const flashcards = [
   },
   {
     id: 2,
-    front: "儀式",
+    word: "儀式",
     meaning: "ceremony; ritual",
     kana: "ぎしき",
     example: "千夏ちゃんと真琴さんへカラスの儀式を教えた。",
@@ -21,7 +21,7 @@ const flashcards = [
   },
   {
     id: 3,
-    front: "育てる",
+    word: "育てる",
     meaning: "to raise; to bring up",
     kana: "そだてる",
     example: "祖母は庭で花を育てています。",
@@ -31,7 +31,7 @@ const flashcards = [
   },
   {
     id: 4,
-    front: "挑戦",
+    word: "挑戦",
     meaning: "challenge",
     kana: "ちょうせん",
     example: "新しいことに挑戦したいです。",
@@ -41,7 +41,7 @@ const flashcards = [
   },
   {
     id: 5,
-    front: "続ける",
+    word: "続ける",
     meaning: "to continue",
     kana: "つづける",
     example: "毎日日本語の勉強を続けています。",
@@ -51,7 +51,7 @@ const flashcards = [
   },
   {
     id: 6,
-    front: "優しい",
+    word: "優しい",
     meaning: "kind; gentle",
     kana: "やさしい",
     example: "彼女はとても優しい人です。",
@@ -61,7 +61,7 @@ const flashcards = [
   },
   {
     id: 7,
-    front: "珍しい",
+    word: "珍しい",
     meaning: "rare; unusual",
     kana: "めずらしい",
     example: "珍しい鳥を見つけました。",
@@ -71,7 +71,7 @@ const flashcards = [
   },
   {
     id: 8,
-    front: "経験",
+    word: "経験",
     meaning: "experience",
     kana: "けいけん",
     example: "海外で働いた経験があります。",
@@ -81,7 +81,7 @@ const flashcards = [
   },
   {
     id: 9,
-    front: "信じる",
+    word: "信じる",
     meaning: "to believe",
     kana: "しんじる",
     example: "私はあなたを信じています。",
@@ -91,7 +91,7 @@ const flashcards = [
   },
   {
     id: 10,
-    front: "準備",
+    word: "準備",
     meaning: "preparation",
     kana: "じゅんび",
     example: "旅行の準備をしています。",
@@ -101,7 +101,7 @@ const flashcards = [
   },
   {
     id: 11,
-    front: "静か",
+    word: "静か",
     meaning: "quiet",
     kana: "しずか",
     example: "この図書館はとても静かです。",
@@ -111,7 +111,7 @@ const flashcards = [
   },
   {
     id: 12,
-    front: "選ぶ",
+    word: "選ぶ",
     meaning: "to choose; to select",
     kana: "えらぶ",
     example: "好きな本を一冊選んでください。",
