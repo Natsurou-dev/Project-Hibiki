@@ -10,7 +10,7 @@ export default function DeckPickerTest() {
         <div className="flex justify-left items-center  p-2 pl-4 border-b-2 border-black">
           <img src="src/assets/arrow-left.svg" className="h-8" />
         </div>
-        <div className="grow flex">
+        <div className="grow flex min-h-0">
           <div className="w-50 border-r-2 border-black">
             <div className="p-2 text-xl text-center border-b-2 border-black">Decks</div>
             <div className="border-b-2 border-black">
@@ -27,7 +27,23 @@ export default function DeckPickerTest() {
               Create deck +
             </div>
           </div>
-          <div className="grow">Card Viewer</div>
+          <div className="grow overflow-y-scroll">
+            <div className="grid grid-cols-3 gap-2 p-4">
+              <div className="h-64 border-2 border-black">Card 1</div>
+              <div className="h-64 border-2 border-black">Card 2</div>
+              <div className="h-64 border-2 border-black">Card 3</div>
+              <div className="h-64 border-2 border-black">Card 4</div>
+              <div className="h-64 border-2 border-black">Card 5</div>
+              <div className="h-64 border-2 border-black">Card 6</div>
+              <div className="h-64 border-2 border-black">Card 7</div>
+              <div className="h-64 border-2 border-black">Card 8</div>
+              <div className="h-64 border-2 border-black">Card 9</div>
+              <div className="h-64 border-2 border-black">Card 10</div>
+              <div className="h-64 border-2 border-black">Card 11</div>
+              <div className="h-64 border-2 border-black">Card 12</div>
+              <div className="h-64 border-2 border-black">Card 13</div>
+            </div>
+          </div>
         </div>
       </div>
     </div>
